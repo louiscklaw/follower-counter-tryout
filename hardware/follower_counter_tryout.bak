@@ -43,10 +43,4 @@ U 5CD035EC
 F0 "ws2812_67" 50
 F1 "ws2812_67.sch" 50
 $EndSheet
-$Sheet
-S 1550 3200 900  600 
-U 5CD03616
-F0 "power_tree" 50
-F1 "power_tree.sch" 50
-$EndSheet
 $EndSCHEMATC
