@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ws2812_01sch-cache
+LIBS:follower_counter_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268

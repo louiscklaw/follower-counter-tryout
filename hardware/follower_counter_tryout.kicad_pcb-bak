@@ -356,6 +356,7 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net /ws2812_01/WS2812_IN_ROW1)
     (add_net /ws2812_01/WS2812_IN_ROW2)
     (add_net /ws2812_01/WS2812_IN_ROW3)
     (add_net /ws2812_01/WS2812_IN_ROW4)
@@ -363,6 +364,7 @@
     (add_net /ws2812_01/WS2812_IN_ROW6)
     (add_net /ws2812_01/WS2812_IN_ROW7)
     (add_net /ws2812_01/WS2812_IN_ROW8)
+    (add_net /ws2812_01/WS2812_OUT_ROW8)
     (add_net /ws2812_23/WS2812_IN_ROW1)
     (add_net /ws2812_23/WS2812_IN_ROW2)
     (add_net /ws2812_23/WS2812_IN_ROW3)
@@ -616,7 +618,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07FC9)
-    (at 320.04 91.44)
+    (at 1272.16 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048EC)
@@ -662,7 +664,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07FB2)
-    (at 332.74 91.44)
+    (at 1263.74 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048EB)
@@ -708,7 +710,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F9B)
-    (at 345.44 91.44)
+    (at 1255.32 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF09)
@@ -754,7 +756,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F84)
-    (at 358.14 91.44)
+    (at 1246.9 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BC065F0)
@@ -800,7 +802,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F6D)
-    (at 370.84 91.44)
+    (at 1272.16 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BC065EA)
@@ -846,7 +848,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F56)
-    (at 383.54 91.44)
+    (at 1263.74 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048E7)
@@ -892,7 +894,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F3F)
-    (at 396.24 91.44)
+    (at 1255.32 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AFC5)
@@ -938,7 +940,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F28)
-    (at 408.94 91.44)
+    (at 1246.9 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048E5)
@@ -984,7 +986,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07F11)
-    (at 408.94 78.74)
+    (at 1238.48 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BC0655B)
@@ -1030,7 +1032,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07EFA)
-    (at 396.24 78.74)
+    (at 1272.16 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BC06555)
@@ -1076,7 +1078,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07EE3)
-    (at 383.54 78.74)
+    (at 1263.74 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048D8)
@@ -1122,7 +1124,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07ECC)
-    (at 370.84 78.74)
+    (at 1255.32 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048D7)
@@ -1168,7 +1170,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07EB5)
-    (at 358.14 78.74)
+    (at 1246.9 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048D6)
@@ -1214,7 +1216,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E9E)
-    (at 345.44 78.74)
+    (at 1238.48 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2B01C)
@@ -1260,7 +1262,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E87)
-    (at 332.74 78.74)
+    (at 1272.16 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEF4)
@@ -1306,7 +1308,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E70)
-    (at 320.04 78.74)
+    (at 1238.48 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AFB3)
@@ -1352,7 +1354,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E59)
-    (at 320.04 66.04)
+    (at 1230.06 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048CB)
@@ -1398,7 +1400,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E42)
-    (at 332.74 66.04)
+    (at 1246.9 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048CA)
@@ -1444,7 +1446,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E2B)
-    (at 345.44 66.04)
+    (at 1213.22 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF53)
@@ -1490,7 +1492,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07E14)
-    (at 358.14 66.04)
+    (at 1255.32 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2B012)
@@ -1536,7 +1538,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07DFD)
-    (at 370.84 66.04)
+    (at 1221.64 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD04932)
@@ -1582,7 +1584,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07DE6)
-    (at 383.54 66.04)
+    (at 1230.06 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD04931)
@@ -1628,7 +1630,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07DCF)
-    (at 396.24 66.04)
+    (at 1238.48 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AFA8)
@@ -1674,7 +1676,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07DB8)
-    (at 408.94 66.04)
+    (at 1246.9 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C47768F)
@@ -1720,7 +1722,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07DA1)
-    (at 408.94 53.34)
+    (at 1255.32 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEDC)
@@ -1766,7 +1768,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D8A)
-    (at 396.24 53.34)
+    (at 1221.64 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BC06407)
@@ -1812,7 +1814,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D73)
-    (at 383.54 53.34)
+    (at 1263.74 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF49)
@@ -1858,7 +1860,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D5C)
-    (at 370.84 53.34)
+    (at 1230.06 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF48)
@@ -1904,7 +1906,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D45)
-    (at 358.14 53.34)
+    (at 1238.48 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BC063F5)
@@ -1950,7 +1952,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D2E)
-    (at 345.44 53.34)
+    (at 1246.9 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2B007)
@@ -1996,7 +1998,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D17)
-    (at 332.74 53.34)
+    (at 1255.32 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2B006)
@@ -2042,7 +2044,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07D00)
-    (at 320.04 53.34)
+    (at 1263.74 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD04926)
@@ -2088,7 +2090,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07CE9)
-    (at 320.04 40.64)
+    (at 1196.38 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF93)
@@ -2134,7 +2136,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07CD2)
-    (at 332.74 40.64)
+    (at 1230.06 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF92)
@@ -2180,7 +2182,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07CBB)
-    (at 345.44 40.64)
+    (at 1221.64 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048B2)
@@ -2226,7 +2228,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07CA4)
-    (at 358.14 40.64)
+    (at 1213.22 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048B1)
@@ -2272,7 +2274,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C8D)
-    (at 370.84 40.64)
+    (at 1246.9 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477662)
@@ -2318,7 +2320,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C76)
-    (at 383.54 40.64)
+    (at 1204.8 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477661)
@@ -2364,7 +2366,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C5F)
-    (at 396.24 40.64)
+    (at 1238.48 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477660)
@@ -2410,7 +2412,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C48)
-    (at 408.94 40.64)
+    (at 1230.06 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C47765F)
@@ -2456,7 +2458,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C31)
-    (at 408.94 27.94)
+    (at 1221.64 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEC3)
@@ -2502,7 +2504,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C1A)
-    (at 396.24 27.94)
+    (at 1213.22 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048A3)
@@ -2548,7 +2550,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07C03)
-    (at 383.54 27.94)
+    (at 1204.8 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BBBD49E)
@@ -2594,7 +2596,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07BEC)
-    (at 370.84 27.94)
+    (at 1238.48 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BBBD498)
@@ -2640,7 +2642,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07BD5)
-    (at 358.14 27.94)
+    (at 1196.38 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD048A0)
@@ -2686,7 +2688,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07BBE)
-    (at 345.44 27.94)
+    (at 1230.06 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD0489F)
@@ -2732,7 +2734,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07BA7)
-    (at 332.74 27.94)
+    (at 1221.64 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BBBD486)
@@ -2778,7 +2780,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B90)
-    (at 320.04 27.94)
+    (at 1213.22 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BBBD480)
@@ -2824,7 +2826,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B79)
-    (at 320.04 15.24)
+    (at 1204.8 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477636)
@@ -2870,7 +2872,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B62)
-    (at 332.74 15.24)
+    (at 1196.38 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477635)
@@ -2916,7 +2918,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B4B)
-    (at 345.44 15.24)
+    (at 1230.06 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477634)
@@ -2962,7 +2964,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B34)
-    (at 358.14 15.24)
+    (at 1221.64 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF23)
@@ -3008,7 +3010,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B1D)
-    (at 370.84 15.24)
+    (at 1213.22 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEB7)
@@ -3054,7 +3056,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07B06)
-    (at 383.54 15.24)
+    (at 1204.8 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD04897)
@@ -3100,7 +3102,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07AEF)
-    (at 396.24 15.24)
+    (at 1196.38 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF22)
@@ -3146,7 +3148,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07AD8)
-    (at 408.94 15.24)
+    (at 1221.64 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C47762F)
@@ -3192,7 +3194,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07AC1)
-    (at 408.94 2.54)
+    (at 1213.22 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BBB6DB1)
@@ -3238,7 +3240,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07AAA)
-    (at 396.24 2.54)
+    (at 1204.8 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEAC)
@@ -3284,7 +3286,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A93)
-    (at 383.54 2.54)
+    (at 1196.38 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF6B)
@@ -3330,7 +3332,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A7C)
-    (at 370.84 2.54)
+    (at 1213.22 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5BBB6D9F)
@@ -3376,7 +3378,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A65)
-    (at 358.14 2.54)
+    (at 1204.8 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AF18)
@@ -3422,7 +3424,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A4E)
-    (at 345.44 2.54)
+    (at 1196.38 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEA9)
@@ -3468,7 +3470,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A37)
-    (at 332.74 2.54)
+    (at 1204.8 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5CD2AEA8)
@@ -3514,7 +3516,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A20)
-    (at 320.04 2.54)
+    (at 1196.38 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08019/5C477617)
@@ -3560,7 +3562,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07A09)
-    (at 218.44 91.44)
+    (at 1272.16 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BC06602)
@@ -3606,7 +3608,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD079F2)
-    (at 231.14 91.44)
+    (at 1263.74 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BC065FC)
@@ -3652,7 +3654,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD079DB)
-    (at 243.84 91.44)
+    (at 1255.32 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFC9)
@@ -3698,7 +3700,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD079C4)
-    (at 256.54 91.44)
+    (at 1246.9 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048E9)
@@ -3744,7 +3746,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD079AD)
-    (at 269.24 91.44)
+    (at 1272.16 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048E8)
@@ -3790,7 +3792,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07996)
-    (at 281.94 91.44)
+    (at 1263.74 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF06)
@@ -3836,7 +3838,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0797F)
-    (at 294.64 91.44)
+    (at 1255.32 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF05)
@@ -3882,7 +3884,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07968)
-    (at 307.34 91.44)
+    (at 1246.9 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BC065D8)
@@ -3928,7 +3930,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07951)
-    (at 307.34 78.74)
+    (at 1238.48 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFB9)
@@ -3974,7 +3976,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0793A)
-    (at 294.64 78.74)
+    (at 1272.16 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048D9)
@@ -4020,7 +4022,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07923)
-    (at 281.94 78.74)
+    (at 1263.74 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEF7)
@@ -4066,7 +4068,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0790C)
-    (at 269.24 78.74)
+    (at 1255.32 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEF6)
@@ -4112,7 +4114,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD078F5)
-    (at 256.54 78.74)
+    (at 1246.9 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEF5)
@@ -4158,7 +4160,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD078DE)
-    (at 243.84 78.74)
+    (at 1238.48 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF5C)
@@ -4204,7 +4206,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD078C7)
-    (at 231.14 78.74)
+    (at 1272.16 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFB4)
@@ -4250,7 +4252,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD078B0)
-    (at 218.44 78.74)
+    (at 1238.48 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BC06531)
@@ -4296,7 +4298,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07899)
-    (at 218.44 66.04)
+    (at 1230.06 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEEA)
@@ -4342,7 +4344,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07882)
-    (at 231.14 66.04)
+    (at 1246.9 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEE9)
@@ -4388,7 +4390,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0786B)
-    (at 243.84 66.04)
+    (at 1213.22 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2B013)
@@ -4434,7 +4436,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07854)
-    (at 256.54 66.04)
+    (at 1255.32 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF52)
@@ -4480,7 +4482,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0783D)
-    (at 269.24 66.04)
+    (at 1221.64 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5C477692)
@@ -4526,7 +4528,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07826)
-    (at 281.94 66.04)
+    (at 1230.06 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5C477691)
@@ -4572,7 +4574,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0780F)
-    (at 294.64 66.04)
+    (at 1238.48 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BC06490)
@@ -4618,7 +4620,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD077F8)
-    (at 307.34 66.04)
+    (at 1246.9 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD04930)
@@ -4664,7 +4666,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD077E1)
-    (at 307.34 53.34)
+    (at 1255.32 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048BD)
@@ -4710,7 +4712,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD077CA)
-    (at 294.64 53.34)
+    (at 1221.64 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048BC)
@@ -4756,7 +4758,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD077B3)
-    (at 281.94 53.34)
+    (at 1263.74 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2B009)
@@ -4802,7 +4804,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0779C)
-    (at 269.24 53.34)
+    (at 1230.06 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2B008)
@@ -4848,7 +4850,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07785)
-    (at 256.54 53.34)
+    (at 1238.48 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048BB)
@@ -4894,7 +4896,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0776E)
-    (at 243.84 53.34)
+    (at 1246.9 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF47)
@@ -4940,7 +4942,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07757)
-    (at 231.14 53.34)
+    (at 1263.74 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5C477678)
@@ -4986,7 +4988,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07740)
-    (at 218.44 53.34)
+    (at 1196.38 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5C477677)
@@ -5032,7 +5034,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07729)
-    (at 218.44 40.64)
+    (at 1221.64 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AED3)
@@ -5078,7 +5080,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07712)
-    (at 231.14 40.64)
+    (at 1230.06 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AED2)
@@ -5124,7 +5126,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD076FB)
-    (at 243.84 40.64)
+    (at 1196.38 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BBC3813)
@@ -5170,7 +5172,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD076E4)
-    (at 256.54 40.64)
+    (at 1238.48 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BBC380D)
@@ -5216,7 +5218,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD076CD)
-    (at 269.24 40.64)
+    (at 1204.8 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD0491B)
@@ -5262,7 +5264,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD076B6)
-    (at 281.94 40.64)
+    (at 1213.22 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFF9)
@@ -5308,7 +5310,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0769F)
-    (at 294.64 40.64)
+    (at 1221.64 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD04919)
@@ -5354,7 +5356,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07688)
-    (at 307.34 40.64)
+    (at 1230.06 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD04918)
@@ -5400,7 +5402,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07671)
-    (at 307.34 27.94)
+    (at 1230.06 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF83)
@@ -5446,7 +5448,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0765A)
-    (at 294.64 27.94)
+    (at 1238.48 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEC2)
@@ -5492,7 +5494,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07643)
-    (at 281.94 27.94)
+    (at 1204.8 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048A2)
@@ -5538,7 +5540,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0762C)
-    (at 269.24 27.94)
+    (at 1246.9 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048A1)
@@ -5584,7 +5586,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07615)
-    (at 256.54 27.94)
+    (at 1213.22 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEBF)
@@ -5630,7 +5632,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD075FE)
-    (at 243.84 27.94)
+    (at 1221.64 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEBE)
@@ -5676,7 +5678,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD075E7)
-    (at 231.14 27.94)
+    (at 1213.22 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF7D)
@@ -5722,7 +5724,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD075D0)
-    (at 218.44 27.94)
+    (at 1221.64 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD0489D)
@@ -5768,7 +5770,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD075B9)
-    (at 218.44 15.24)
+    (at 1196.38 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD04907)
@@ -5814,7 +5816,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD075A2)
-    (at 231.14 15.24)
+    (at 1204.8 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD04906)
@@ -5860,7 +5862,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0758B)
-    (at 243.84 15.24)
+    (at 1196.38 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFE4)
@@ -5906,7 +5908,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07574)
-    (at 256.54 15.24)
+    (at 1204.8 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFE3)
@@ -5952,7 +5954,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0755D)
-    (at 269.24 15.24)
+    (at 1213.22 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD04898)
@@ -5998,7 +6000,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07546)
-    (at 281.94 15.24)
+    (at 1196.38 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5BBBC89D)
@@ -6044,7 +6046,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0752F)
-    (at 294.64 15.24)
+    (at 1204.8 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFE2)
@@ -6090,7 +6092,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07518)
-    (at 307.34 15.24)
+    (at 1213.22 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFE1)
@@ -6136,7 +6138,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07501)
-    (at 307.34 2.54)
+    (at 1204.8 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD0488E)
@@ -6182,7 +6184,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD074EA)
-    (at 294.64 2.54)
+    (at 1196.38 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD0488D)
@@ -6228,7 +6230,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD074D3)
-    (at 281.94 2.54)
+    (at 1204.8 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AEAB)
@@ -6274,7 +6276,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD074BC)
-    (at 269.24 2.54)
+    (at 1213.22 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD0488B)
@@ -6320,7 +6322,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD074A5)
-    (at 256.54 2.54)
+    (at 1221.64 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD048F9)
@@ -6366,7 +6368,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0748E)
-    (at 243.84 2.54)
+    (at 1230.06 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF69)
@@ -6412,7 +6414,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07477)
-    (at 231.14 2.54)
+    (at 1196.38 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AF68)
@@ -6458,7 +6460,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07460)
-    (at 218.44 2.54)
+    (at 1255.32 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD08007/5CD2AFD7)
@@ -6504,7 +6506,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07449)
-    (at 116.84 91.44)
+    (at 1173.14 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFCB)
@@ -6550,7 +6552,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07432)
-    (at 129.54 91.44)
+    (at 1164.72 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFCA)
@@ -6596,7 +6598,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0741B)
-    (at 142.24 91.44)
+    (at 1156.3 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BC065F6)
@@ -6642,7 +6644,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07404)
-    (at 154.94 91.44)
+    (at 1181.56 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF08)
@@ -6688,7 +6690,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD073ED)
-    (at 167.64 91.44)
+    (at 1173.14 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF07)
@@ -6734,7 +6736,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD073D6)
-    (at 180.34 91.44)
+    (at 1164.72 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFC6)
@@ -6780,7 +6782,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD073BF)
-    (at 193.04 91.44)
+    (at 1156.3 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD048E6)
@@ -6826,7 +6828,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD073A8)
-    (at 205.74 91.44)
+    (at 1147.88 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFC4)
@@ -6872,7 +6874,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07391)
-    (at 205.74 78.74)
+    (at 1181.56 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEF9)
@@ -6918,7 +6920,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0737A)
-    (at 193.04 78.74)
+    (at 1173.14 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEF8)
@@ -6964,7 +6966,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07363)
-    (at 180.34 78.74)
+    (at 1164.72 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFB7)
@@ -7010,7 +7012,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0734C)
-    (at 167.64 78.74)
+    (at 1156.3 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFB6)
@@ -7056,7 +7058,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07335)
-    (at 154.94 78.74)
+    (at 1147.88 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFB5)
@@ -7102,7 +7104,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0731E)
-    (at 142.24 78.74)
+    (at 1181.56 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD0493D)
@@ -7148,7 +7150,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07307)
-    (at 129.54 78.74)
+    (at 1147.88 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BC06537)
@@ -7194,7 +7196,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD072F0)
-    (at 116.84 78.74)
+    (at 1139.46 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD048D4)
@@ -7240,7 +7242,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD072D9)
-    (at 116.84 66.04)
+    (at 1156.3 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFAA)
@@ -7286,7 +7288,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD072C2)
-    (at 129.54 66.04)
+    (at 1122.62 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AFA9)
@@ -7332,7 +7334,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD072AB)
-    (at 142.24 66.04)
+    (at 1164.72 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5C477694)
@@ -7378,7 +7380,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07294)
-    (at 154.94 66.04)
+    (at 1131.04 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD04933)
@@ -7424,7 +7426,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0727D)
-    (at 167.64 66.04)
+    (at 1139.46 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2B011)
@@ -7470,7 +7472,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07266)
-    (at 180.34 66.04)
+    (at 1147.88 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2B010)
@@ -7516,7 +7518,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0724F)
-    (at 193.04 66.04)
+    (at 1156.3 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD048C9)
@@ -7562,7 +7564,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07238)
-    (at 205.74 66.04)
+    (at 1164.72 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF4F)
@@ -7608,7 +7610,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07221)
-    (at 205.74 53.34)
+    (at 1131.04 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BC0640D)
@@ -7654,7 +7656,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0720A)
-    (at 193.04 53.34)
+    (at 1173.14 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEDB)
@@ -7700,7 +7702,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD071F3)
-    (at 180.34 53.34)
+    (at 1139.46 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5C47767C)
@@ -7746,7 +7748,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD071DC)
-    (at 167.64 53.34)
+    (at 1147.88 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5C47767B)
@@ -7792,7 +7794,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD071C5)
-    (at 154.94 53.34)
+    (at 1156.3 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEDA)
@@ -7838,7 +7840,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD071AE)
-    (at 142.24 53.34)
+    (at 1164.72 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD04928)
@@ -7884,7 +7886,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07197)
-    (at 129.54 53.34)
+    (at 1173.14 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD04927)
@@ -7930,7 +7932,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07180)
-    (at 116.84 53.34)
+    (at 1131.04 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2B005)
@@ -7976,7 +7978,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07169)
-    (at 116.84 40.64)
+    (at 1131.04 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD048B4)
@@ -8022,7 +8024,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07152)
-    (at 129.54 40.64)
+    (at 1139.46 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD048B3)
@@ -8068,7 +8070,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0713B)
-    (at 142.24 40.64)
+    (at 1105.78 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF91)
@@ -8114,7 +8116,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07124)
-    (at 154.94 40.64)
+    (at 1147.88 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF90)
@@ -8160,7 +8162,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0710D)
-    (at 167.64 40.64)
+    (at 1114.2 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF3A)
@@ -8206,7 +8208,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD070F6)
-    (at 180.34 40.64)
+    (at 1122.62 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF39)
@@ -8252,7 +8254,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD070DF)
-    (at 193.04 40.64)
+    (at 1131.04 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF38)
@@ -8298,7 +8300,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD070C8)
-    (at 205.74 40.64)
+    (at 1139.46 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF37)
@@ -8344,7 +8346,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD070B1)
-    (at 205.74 27.94)
+    (at 1139.46 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BBBD4AA)
@@ -8390,7 +8392,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0709A)
-    (at 193.04 27.94)
+    (at 1147.88 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF82)
@@ -8436,7 +8438,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07083)
-    (at 180.34 27.94)
+    (at 1114.2 -111.49)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEC1)
@@ -8482,7 +8484,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0706C)
-    (at 167.64 27.94)
+    (at 1156.3 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEC0)
@@ -8528,7 +8530,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07055)
-    (at 154.94 27.94)
+    (at 1122.62 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF7F)
@@ -8574,7 +8576,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0703E)
-    (at 142.24 27.94)
+    (at 1131.04 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF7E)
@@ -8620,7 +8622,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07027)
-    (at 129.54 27.94)
+    (at 1122.62 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEBD)
@@ -8666,7 +8668,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD07010)
-    (at 116.84 27.94)
+    (at 1181.56 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEBC)
@@ -8712,7 +8714,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06FF9)
-    (at 116.84 15.24)
+    (at 1105.78 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF26)
@@ -8758,7 +8760,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06FE2)
-    (at 129.54 15.24)
+    (at 1114.2 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF25)
@@ -8804,7 +8806,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06FCB)
-    (at 142.24 15.24)
+    (at 1105.78 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF24)
@@ -8850,7 +8852,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06FB4)
-    (at 154.94 15.24)
+    (at 1114.2 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5C477633)
@@ -8896,7 +8898,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F9D)
-    (at 167.64 15.24)
+    (at 1122.62 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BBBC8A3)
@@ -8942,7 +8944,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F86)
-    (at 180.34 15.24)
+    (at 1105.78 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF76)
@@ -8988,7 +8990,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F6F)
-    (at 193.04 15.24)
+    (at 1114.2 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5C477630)
@@ -9034,7 +9036,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F58)
-    (at 205.74 15.24)
+    (at 1122.62 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF21)
@@ -9080,7 +9082,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F41)
-    (at 205.74 2.54)
+    (at 1114.2 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEAD)
@@ -9126,7 +9128,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F2A)
-    (at 193.04 2.54)
+    (at 1105.78 -124.73)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BBB6DAB)
@@ -9172,7 +9174,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06F13)
-    (at 180.34 2.54)
+    (at 1114.2 -131.35)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD0488C)
@@ -9218,7 +9220,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06EFC)
-    (at 167.64 2.54)
+    (at 1122.62 -137.97)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AEAA)
@@ -9264,7 +9266,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06EE5)
-    (at 154.94 2.54)
+    (at 1131.04 -144.59)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5C47761A)
@@ -9310,7 +9312,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06ECE)
-    (at 142.24 2.54)
+    (at 1139.46 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BBB69A2)
@@ -9356,7 +9358,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06EB7)
-    (at 129.54 2.54)
+    (at 1105.78 -118.11)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5BBB6007)
@@ -9402,7 +9404,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06EA0)
-    (at 116.84 2.54)
+    (at 1105.78 -151.21)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD035B6/5CD2AF17)
@@ -9448,7 +9450,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06E89)
-    (at 15.24 91.44)
+    (at 1181.56 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF0B)
@@ -9493,7 +9495,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06E72)
-    (at 27.94 91.44)
+    (at 1173.14 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF0A)
@@ -9539,7 +9541,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06E5B)
-    (at 40.64 91.44)
+    (at 1164.72 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD048EA)
@@ -9585,7 +9587,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06E44)
-    (at 53.34 91.44)
+    (at 1156.3 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFC8)
@@ -9631,7 +9633,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06E2D)
-    (at 66.04 91.44)
+    (at 1181.56 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFC7)
@@ -9677,7 +9679,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06E16)
-    (at 78.74 91.44)
+    (at 1173.14 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC065E4)
@@ -9723,7 +9725,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06DFF)
-    (at 91.44 91.44)
+    (at 1164.72 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC065DE)
@@ -9769,7 +9771,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06DE8)
-    (at 104.14 91.44)
+    (at 1156.3 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF04)
@@ -9815,7 +9817,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06DD1)
-    (at 104.14 78.74)
+    (at 1147.88 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD048DA)
@@ -9861,7 +9863,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06DBA)
-    (at 91.44 78.74)
+    (at 1181.56 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFB8)
@@ -9907,7 +9909,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06DA3)
-    (at 78.74 78.74)
+    (at 1173.14 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC0654F)
@@ -9953,7 +9955,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D8C)
-    (at 66.04 78.74)
+    (at 1164.72 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC06549)
@@ -9999,7 +10001,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D75)
-    (at 53.34 78.74)
+    (at 1156.3 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC06543)
@@ -10045,7 +10047,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D5E)
-    (at 40.64 78.74)
+    (at 1147.88 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5C4776A9)
@@ -10091,7 +10093,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D47)
-    (at 27.94 78.74)
+    (at 1131.04 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD048D5)
@@ -10137,7 +10139,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D30)
-    (at 15.24 78.74)
+    (at 1156.3 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AEF3)
@@ -10183,7 +10185,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D19)
-    (at 15.24 66.04)
+    (at 1122.62 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC064B4)
@@ -10229,7 +10231,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06D02)
-    (at 27.94 66.04)
+    (at 1164.72 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BC064AE)
@@ -10275,7 +10277,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06CEB)
-    (at 40.64 66.04)
+    (at 1131.04 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04934)
@@ -10321,7 +10323,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06CD4)
-    (at 53.34 66.04)
+    (at 1139.46 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5C477693)
@@ -10367,7 +10369,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06CBD)
-    (at 66.04 66.04)
+    (at 1147.88 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF51)
@@ -10413,7 +10415,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06CA6)
-    (at 78.74 66.04)
+    (at 1156.3 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF50)
@@ -10459,7 +10461,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C8F)
-    (at 91.44 66.04)
+    (at 1164.72 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AEE8)
@@ -10505,7 +10507,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C78)
-    (at 104.14 66.04)
+    (at 1139.46 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2B00F)
@@ -10551,7 +10553,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C61)
-    (at 104.14 53.34)
+    (at 1173.14 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF9C)
@@ -10597,7 +10599,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C4A)
-    (at 91.44 53.34)
+    (at 1139.46 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF9B)
@@ -10643,7 +10645,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C33)
-    (at 78.74 53.34)
+    (at 1147.88 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD0492A)
@@ -10689,7 +10691,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C1C)
-    (at 66.04 53.34)
+    (at 1156.3 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04929)
@@ -10735,7 +10737,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06C05)
-    (at 53.34 53.34)
+    (at 1164.72 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF9A)
@@ -10781,7 +10783,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06BEE)
-    (at 40.64 53.34)
+    (at 1173.14 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5C477679)
@@ -10827,7 +10829,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06BD7)
-    (at 27.94 53.34)
+    (at 1147.88 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF46)
@@ -10873,7 +10875,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06BC0)
-    (at 15.24 53.34)
+    (at 1114.2 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF45)
@@ -10919,7 +10921,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06BA9)
-    (at 15.24 40.64)
+    (at 1105.78 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BBC381F)
@@ -10965,7 +10967,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B92)
-    (at 27.94 40.64)
+    (at 1139.46 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BBC3819)
@@ -11011,7 +11013,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B7B)
-    (at 40.64 40.64)
+    (at 1105.78 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AED1)
@@ -11057,7 +11059,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B64)
-    (at 53.34 40.64)
+    (at 1147.88 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AED0)
@@ -11103,7 +11105,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B4D)
-    (at 66.04 40.64)
+    (at 1114.2 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFFA)
@@ -11149,7 +11151,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B36)
-    (at 78.74 40.64)
+    (at 1122.62 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD0491A)
@@ -11195,7 +11197,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B1F)
-    (at 91.44 40.64)
+    (at 1131.04 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFF8)
@@ -11241,7 +11243,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06B08)
-    (at 104.14 40.64)
+    (at 1139.46 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFF7)
@@ -11287,7 +11289,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06AF1)
-    (at 104.14 27.94)
+    (at 1147.88 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD048A4)
@@ -11333,7 +11335,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06ADA)
-    (at 91.44 27.94)
+    (at 1114.2 -163.76)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BBBD4A4)
@@ -11379,7 +11381,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06AC3)
-    (at 78.74 27.94)
+    (at 1156.3 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF81)
@@ -11425,7 +11427,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06AAC)
-    (at 66.04 27.94)
+    (at 1122.62 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF80)
@@ -11471,7 +11473,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A95)
-    (at 53.34 27.94)
+    (at 1131.04 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BBBD492)
@@ -11517,7 +11519,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A7E)
-    (at 40.64 27.94)
+    (at 1139.46 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BBBD48C)
@@ -11563,7 +11565,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A67)
-    (at 27.94 27.94)
+    (at 1122.62 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD0489E)
@@ -11609,7 +11611,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A50)
-    (at 15.24 27.94)
+    (at 1131.04 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF7C)
@@ -11655,7 +11657,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A39)
-    (at 15.24 15.24)
+    (at 1105.78 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFE6)
@@ -11701,7 +11703,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A22)
-    (at 27.94 15.24)
+    (at 1105.78 -170.38)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFE5)
@@ -11747,7 +11749,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06A0B)
-    (at 40.64 15.24)
+    (at 1139.46 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04905)
@@ -11793,7 +11795,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD069F4)
-    (at 53.34 15.24)
+    (at 1131.04 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04904)
@@ -11839,7 +11841,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD069DD)
-    (at 66.04 15.24)
+    (at 1122.62 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF77)
@@ -11885,7 +11887,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD069C6)
-    (at 78.74 15.24)
+    (at 1114.2 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AEB6)
@@ -11931,7 +11933,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD069AF)
-    (at 91.44 15.24)
+    (at 1105.78 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04903)
@@ -11977,7 +11979,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06998)
-    (at 104.14 15.24)
+    (at 1131.04 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04902)
@@ -12023,7 +12025,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06981)
-    (at 104.14 2.54)
+    (at 1122.62 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF6D)
@@ -12069,7 +12071,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0696A)
-    (at 91.44 2.54)
+    (at 1114.2 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF6C)
@@ -12115,7 +12117,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06953)
-    (at 78.74 2.54)
+    (at 1105.78 -183.62)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5BBB6DA5)
@@ -12161,7 +12163,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0693C)
-    (at 66.04 2.54)
+    (at 1122.62 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AF6A)
@@ -12207,7 +12209,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD06925)
-    (at 53.34 2.54)
+    (at 1114.2 -196.86)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD2AFD8)
@@ -12253,7 +12255,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD0690E)
-    (at 40.64 2.54)
+    (at 1105.78 -190.24)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD0488A)
@@ -12299,7 +12301,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD068F7)
-    (at 27.94 2.54)
+    (at 1181.56 -203.48)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD04889)
@@ -12345,7 +12347,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5BCB162B) (tstamp 5CD068E0)
-    (at 15.24 2.54)
+    (at 1114.2 -177)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /5CD03547/5CD048F8)
