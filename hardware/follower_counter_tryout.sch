@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -268,5 +268,12 @@ U 5CD47361
 F0 "STM32F103" 50
 F1 "stm32f103.sch" 50
 F2 "LED_PWM_OUTPUT" O R 1750 4200 50 
+$EndSheet
+$Sheet
+S 850  4650 900  600 
+U 5CD623CD
+F0 "NANOPIDUO2" 50
+F1 "nanopi_duo2.sch" 50
+F2 "LED_PWM_OUTPUT" O R 1750 5000 50 
 $EndSheet
 $EndSCHEMATC
