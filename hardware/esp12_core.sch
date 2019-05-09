@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -288,4 +288,10 @@ Wire Wire Line
 	5550 5550 4950 5550
 Wire Wire Line
 	5550 5650 4950 5650
+$Sheet
+S 7600 850  950  700 
+U 5CD5414F
+F0 "usb_to_uart" 50
+F1 "usb_to_uart.sch" 50
+$EndSheet
 $EndSCHEMATC
