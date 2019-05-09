@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -262,4 +262,11 @@ F3 "LED_PWM_INPUT" I L 2000 3250 50
 $EndSheet
 Wire Wire Line
 	1750 3250 2000 3250
+$Sheet
+S 850  3850 900  600 
+U 5CD47361
+F0 "STM32F103" 50
+F1 "stm32f103.sch" 50
+F2 "LED_PWM_OUTPUT" O R 1750 4200 50 
+$EndSheet
 $EndSCHEMATC

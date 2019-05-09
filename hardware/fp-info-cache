@@ -1,4 +1,4 @@
-19418912166870355
+19411774703716355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44086,6 +44086,13 @@ JST PH series connector, B4B-PH-KL
 4
 4
 footprint-lib
+BLUEPILL_SWD
+BLUEPILL SWD TERMINAL
+BLUEPILL SWD STM32
+0
+4
+4
+footprint-lib
 conn_01_04_board_splitter
 
 
@@ -44275,6 +44282,13 @@ louislabs_qr_logo
 0
 0
 footprint-lib
+louislabs_sign
+
+
+0
+99
+1
+footprint-lib
 LQFP-48_7x7mm_Pitch0.5mm
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
 QFP 0.5
@@ -44435,6 +44449,13 @@ orangepi-zero
 0
 42
 42
+footprint-lib
+OSC_3225
+Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Oscillators/ASEseries.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal oscillator hand-soldering 3225
+0
+4
+4
 footprint-lib
 PC_FAN_s4b-ph-kl
 JST PH series connector, S4B-PH-KL
