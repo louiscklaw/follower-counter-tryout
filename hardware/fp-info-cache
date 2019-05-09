@@ -1,4 +1,4 @@
-19399315306472355
+19414240007412355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44016,6 +44016,13 @@ EMI Filter
 19
 4
 footprint-lib
+9013,J3,SOT23
+SOT23
+
+0
+3
+3
+footprint-lib
 aboutme_louislabs_com
 
 
@@ -45282,6 +45289,13 @@ SUNTECH_ST-TF-003A
 0
 13
 10
+footprint-lib
+SW_SPST_CK_RS282G05A3
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
 footprint-lib
 SW_SPST_PTS645
 C&K Components SPST SMD PTS645 Series 6mm Tact Switch

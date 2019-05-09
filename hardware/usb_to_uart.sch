@@ -248,4 +248,92 @@ Wire Wire Line
 	4650 1400 4050 1400
 Wire Wire Line
 	4050 1400 4050 2000
+$Comp
+L taobao-transistor:SS9013_J3 Q?
+U 1 1 5CD7BF83
+P 1950 6150
+F 0 "Q?" H 2150 6200 50  0000 L CNN
+F 1 "SS9013_J3" H 2150 6150 50  0000 L CNN
+F 2 "footprint-lib:9013,J3,SOT23" H 2150 6075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1950 6150 50  0001 L CNN
+	1    1950 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L taobao-transistor:SS9013_J3 Q?
+U 1 1 5CD7C99C
+P 1950 6900
+F 0 "Q?" H 2150 6850 50  0000 L CNN
+F 1 "SS9013_J3" H 2150 6900 50  0000 L CNN
+F 2 "footprint-lib:9013,J3,SOT23" H 2150 6825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1950 6900 50  0001 L CNN
+	1    1950 6900
+	-1   0    0    1   
+$EndComp
+Text Label 850  5800 0    50   ~ 0
+nRST
+Text Label 850  7250 0    50   ~ 0
+GPIO0
+Text Label 2900 6150 2    50   ~ 0
+DTR
+Text Label 2900 6900 2    50   ~ 0
+RTS
+Wire Wire Line
+	850  5800 1850 5800
+Wire Wire Line
+	1850 5800 1850 5950
+Wire Wire Line
+	850  7250 1850 7250
+Wire Wire Line
+	1850 7250 1850 7100
+Wire Wire Line
+	1850 6350 1850 6450
+Wire Wire Line
+	1850 6450 2650 6450
+Wire Wire Line
+	2650 6450 2650 6900
+Wire Wire Line
+	2650 6900 2900 6900
+$Comp
+L taobao-r:R123,0603 R?
+U 1 1 5CD7F8D4
+P 2400 6150
+F 0 "R?" V 2150 6150 50  0000 C CNN
+F 1 "R123,0603" V 2250 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2400 6150 50  0001 C CNN
+F 3 "~" H 2400 6150 50  0001 C CNN
+	1    2400 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-r:R123,0603 R?
+U 1 1 5CD7FB22
+P 2400 6900
+F 0 "R?" V 2150 6900 50  0000 C CNN
+F 1 "R123,0603" V 2250 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2400 6900 50  0001 C CNN
+F 3 "~" H 2400 6900 50  0001 C CNN
+	1    2400 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 6150 2300 6150
+Wire Wire Line
+	2500 6150 2700 6150
+Wire Wire Line
+	2150 6900 2300 6900
+Wire Wire Line
+	2500 6900 2650 6900
+Connection ~ 2650 6900
+Wire Wire Line
+	1850 6700 1850 6550
+Wire Wire Line
+	1850 6550 2700 6550
+Wire Wire Line
+	2700 6550 2700 6150
+Connection ~ 2700 6150
+Wire Wire Line
+	2700 6150 2900 6150
+Text Notes 1450 7500 0    50   ~ 0
+5V TO 3V3 LEVEL SWITCH
 $EndSCHEMATC
