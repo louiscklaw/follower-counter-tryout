@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -448,4 +448,64 @@ F 3 "" H 9300 1500 50  0001 C CNN
 	1    9300 1500
 	1    0    0    -1  
 $EndComp
+Text Label 1650 700  2    50   ~ 0
+nRST
+Text HLabel 1300 700  0    50   Input ~ 0
+nRST
+Wire Wire Line
+	1650 700  1300 700 
+Text Label 1650 800  2    50   ~ 0
+GPIO0
+Text Label 1650 1550 2    50   ~ 0
+CTS
+Text Label 1650 1450 2    50   ~ 0
+RTS
+Text Label 1650 1350 2    50   ~ 0
+DSR
+Text Label 1650 1250 2    50   ~ 0
+DTR
+Text Label 1650 1150 2    50   ~ 0
+TXD0
+Text Label 1650 1050 2    50   ~ 0
+RXD0
+Text Label 1650 1650 2    50   ~ 0
+DCD
+Text Label 1650 1750 2    50   ~ 0
+RI
+Text HLabel 1300 800  0    50   Input ~ 0
+GPIO0
+Wire Wire Line
+	1650 800  1300 800 
+Text HLabel 1300 1050 0    50   Input ~ 0
+RXD0
+Text HLabel 1300 1150 0    50   Input ~ 0
+TXD0
+Text HLabel 1300 1250 0    50   Input ~ 0
+DTR
+Text HLabel 1300 1350 0    50   Input ~ 0
+DSR
+Text HLabel 1300 1450 0    50   Input ~ 0
+RTS
+Text HLabel 1300 1650 0    50   Input ~ 0
+DCD
+Text HLabel 1300 1750 0    50   Input ~ 0
+RI
+Text HLabel 1300 1550 0    50   Input ~ 0
+CTS
+Wire Wire Line
+	1300 1050 1650 1050
+Wire Wire Line
+	1300 1150 1650 1150
+Wire Wire Line
+	1300 1250 1650 1250
+Wire Wire Line
+	1300 1350 1650 1350
+Wire Wire Line
+	1300 1450 1650 1450
+Wire Wire Line
+	1300 1550 1650 1550
+Wire Wire Line
+	1300 1650 1650 1650
+Wire Wire Line
+	1300 1750 1650 1750
 $EndSCHEMATC
