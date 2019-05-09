@@ -157,4 +157,95 @@ Wire Wire Line
 Wire Wire Line
 	1800 3850 1700 3850
 Connection ~ 1700 3850
+$Comp
+L power:+5V #PWR?
+U 1 1 5CD65D2C
+P 3200 4400
+F 0 "#PWR?" H 3200 4250 50  0001 C CNN
+F 1 "+5V" H 3250 4600 50  0000 C CNN
+F 2 "" H 3200 4400 50  0001 C CNN
+F 3 "" H 3200 4400 50  0001 C CNN
+	1    3200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0603 C?
+U 1 1 5CD6621A
+P 3200 4750
+F 0 "C?" H 3100 4800 50  0000 R CNN
+F 1 "C106,0603" H 3100 4750 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 4750 50  0001 C CNN
+F 3 "~" H 3200 4750 50  0001 C CNN
+	1    3200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C104,0603 C?
+U 1 1 5CD66224
+P 3450 4750
+F 0 "C?" H 3550 4800 50  0000 L CNN
+F 1 "C104,0603" H 3550 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 4750 50  0001 C CNN
+F 3 "~" H 3450 4750 50  0001 C CNN
+	1    3450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4000 3700 4500
+Wire Wire Line
+	3700 4500 3450 4500
+Wire Wire Line
+	3200 4500 3200 4650
+Wire Wire Line
+	3200 4400 3200 4500
+Connection ~ 3200 4500
+Wire Wire Line
+	3450 4500 3450 4650
+Connection ~ 3450 4500
+Wire Wire Line
+	3450 4500 3200 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5CD68920
+P 3350 5050
+F 0 "#PWR?" H 3350 4800 50  0001 C CNN
+F 1 "GND" H 3400 4850 50  0000 C CNN
+F 2 "" H 3350 5050 50  0001 C CNN
+F 3 "" H 3350 5050 50  0001 C CNN
+	1    3350 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4850 3200 4950
+Wire Wire Line
+	3200 4950 3350 4950
+Wire Wire Line
+	3350 4950 3350 5050
+Wire Wire Line
+	3450 4850 3450 4950
+Wire Wire Line
+	3450 4950 3350 4950
+Connection ~ 3350 4950
+Text Label 4000 4450 1    50   ~ 0
+ACTIVE
+Wire Wire Line
+	4000 4000 4000 4450
+Text Label 4150 1550 3    50   ~ 0
+RTS
+Text Label 4250 1550 3    50   ~ 0
+CTS
+Wire Wire Line
+	4150 1550 4150 2000
+Wire Wire Line
+	4250 1550 4250 2000
+Text Label 4650 1400 2    50   ~ 0
+TXD0
+Text Label 4650 1300 2    50   ~ 0
+RXD0
+Wire Wire Line
+	4650 1300 4300 1300
+Wire Wire Line
+	4650 1400 4050 1400
+Wire Wire Line
+	4050 1400 4050 2000
 $EndSCHEMATC
