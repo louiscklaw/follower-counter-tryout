@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -14,4 +14,112 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L taobao-components:AMS1117-3.3 U?
+U 1 1 5CD5DED1
+P 1750 1150
+F 0 "U?" H 1750 1450 50  0000 C CNN
+F 1 "AMS1117-3.3" H 1750 1350 50  0000 C CNN
+F 2 "footprint-lib:AMS1117_SOT-223" H 1750 1350 50  0001 C CNN
+F 3 "" H 1850 900 50  0001 C CNN
+	1    1750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CD5EA35
+P 1100 950
+F 0 "#PWR?" H 1100 800 50  0001 C CNN
+F 1 "+5V" H 1150 1150 50  0000 C CNN
+F 2 "" H 1100 950 50  0001 C CNN
+F 3 "" H 1100 950 50  0001 C CNN
+	1    1100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CD5ECE6
+P 2350 950
+F 0 "#PWR?" H 2350 800 50  0001 C CNN
+F 1 "+3V3" H 2400 1150 50  0000 C CNN
+F 2 "" H 2350 950 50  0001 C CNN
+F 3 "" H 2350 950 50  0001 C CNN
+	1    2350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP10uf,16V C?
+U 1 1 5CD5F303
+P 1100 1350
+F 0 "C?" H 1200 1400 50  0000 L CNN
+F 1 "CP10uf,16V" H 1200 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 1100 1350 50  0001 C CNN
+F 3 "~" H 1100 1350 50  0001 C CNN
+	1    1100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0603 C?
+U 1 1 5CD5F77E
+P 2350 1350
+F 0 "C?" H 2450 1400 50  0000 L CNN
+F 1 "C106,0603" H 2450 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2350 1350 50  0001 C CNN
+F 3 "~" H 2350 1350 50  0001 C CNN
+	1    2350 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 950  1100 1150
+Wire Wire Line
+	1450 1150 1100 1150
+Connection ~ 1100 1150
+Wire Wire Line
+	1100 1150 1100 1250
+$Comp
+L power:GND #PWR?
+U 1 1 5CD6081C
+P 1100 1650
+F 0 "#PWR?" H 1100 1400 50  0001 C CNN
+F 1 "GND" H 1150 1450 50  0000 C CNN
+F 2 "" H 1100 1650 50  0001 C CNN
+F 3 "" H 1100 1650 50  0001 C CNN
+	1    1100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1450 1100 1650
+Wire Wire Line
+	2050 1150 2350 1150
+Wire Wire Line
+	2350 1150 2350 950 
+Wire Wire Line
+	2350 1150 2350 1250
+Connection ~ 2350 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5CD60EB7
+P 2350 1650
+F 0 "#PWR?" H 2350 1400 50  0001 C CNN
+F 1 "GND" H 2400 1450 50  0000 C CNN
+F 2 "" H 2350 1650 50  0001 C CNN
+F 3 "" H 2350 1650 50  0001 C CNN
+	1    2350 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1450 2350 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5CD6120E
+P 1750 1600
+F 0 "#PWR?" H 1750 1350 50  0001 C CNN
+F 1 "GND" H 1800 1400 50  0000 C CNN
+F 2 "" H 1750 1600 50  0001 C CNN
+F 3 "" H 1750 1600 50  0001 C CNN
+	1    1750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1450 1750 1600
 $EndSCHEMATC

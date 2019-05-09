@@ -1,4 +1,4 @@
-19414240007412355
+19418912166870355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44037,6 +44037,13 @@ AllWinner-A64(FBGA396)
 399
 399
 footprint-lib
+AMS1117_SOT-223
+module CMS SOT223 4 pins
+CMS SOT
+0
+8
+4
+footprint-lib
 AQ_mpt_0,5%2f4-2,54
 4-way 2.54mm pitch terminal block, Phoenix MPT series
 
@@ -45248,6 +45255,13 @@ CMS SOT
 4
 4
 footprint-lib
+SS12,do214ac
+DO214AC SS12
+SS12
+0
+2
+2
+footprint-lib
 SSOP-20_4.4x6.5mm_Pitch0.65mm
 SSOP20: plastic shrink small outline package; 20 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot266-1_po.pdf)
 SSOP 0.65
@@ -45366,6 +45380,13 @@ USB_B_F_X2
 0
 12
 12
+footprint-lib
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
 footprint-lib
 USB_PN87520_HOST_PTH
 
