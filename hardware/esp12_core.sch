@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -300,4 +300,36 @@ U 5CD6BE5F
 F0 "ESP12_button" 50
 F1 "ESP12_button.sch" 50
 $EndSheet
+$Sheet
+S 7600 2750 950  700 
+U 5CD78B17
+F0 "ADC" 50
+F1 "ADC.sch" 50
+$EndSheet
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CD7B601
+P 3600 3900
+F 0 "#PWR?" H 3600 3750 50  0001 C CNN
+F 1 "+3V3" H 3650 4100 50  0000 C CNN
+F 2 "" H 3600 3900 50  0001 C CNN
+F 3 "" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD7BA45
+P 3600 6200
+F 0 "#PWR?" H 3600 5950 50  0001 C CNN
+F 1 "GND" H 3650 6000 50  0000 C CNN
+F 2 "" H 3600 6200 50  0001 C CNN
+F 3 "" H 3600 6200 50  0001 C CNN
+	1    3600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6050 3600 6200
+Wire Wire Line
+	3600 3900 3600 4100
 $EndSCHEMATC
