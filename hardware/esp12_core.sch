@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -293,5 +293,11 @@ S 7600 850  950  700
 U 5CD5414F
 F0 "usb_to_uart" 50
 F1 "usb_to_uart.sch" 50
+$EndSheet
+$Sheet
+S 7600 1800 950  700 
+U 5CD6BE5F
+F0 "ESP12_button" 50
+F1 "ESP12_button.sch" 50
 $EndSheet
 $EndSCHEMATC

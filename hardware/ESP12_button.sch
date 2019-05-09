@@ -1,0 +1,169 @@
+EESchema Schematic File Version 4
+LIBS:follower_counter_tryout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CD6EFDD
+P 2050 1600
+F 0 "#PWR?" H 2050 1450 50  0001 C CNN
+F 1 "+3V3" H 2100 1800 50  0000 C CNN
+F 2 "" H 2050 1600 50  0001 C CNN
+F 3 "" H 2050 1600 50  0001 C CNN
+	1    2050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R471,0603 R?
+U 1 1 5CD6F2CA
+P 2050 1900
+F 0 "R?" H 2150 1950 50  0000 L CNN
+F 1 "R471,0603" H 2150 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2050 1900 50  0001 C CNN
+F 3 "~" H 2050 1900 50  0001 C CNN
+	1    2050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_BLUE,0603 D?
+U 1 1 5CD6F699
+P 2050 2250
+F 0 "D?" V 2100 2150 50  0000 R CNN
+F 1 "LED_BLUE,0603" V 2050 2150 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 2250 50  0001 C CNN
+F 3 "" V 2050 2250 50  0001 C CNN
+	1    2050 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R0,0603 R?
+U 1 1 5CD70197
+P 2050 2650
+F 0 "R?" H 2150 2700 50  0000 L CNN
+F 1 "R0,0603" H 2150 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2050 2650 50  0001 C CNN
+F 3 "~" H 2050 2650 50  0001 C CNN
+	1    2050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-button:SW_RESET,2_leg,SMD SW?
+U 1 1 5CD705A6
+P 2350 3150
+F 0 "SW?" V 2300 3300 50  0000 L CNN
+F 1 "SW_RESET,2_leg,SMD" V 2350 3300 50  0000 L CNN
+F 2 "footprint-lib:SW_SPST_CK_RS282G05A3" H 2350 3350 50  0001 C CNN
+F 3 "~" H 2350 3350 50  0001 C CNN
+	1    2350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-r:R471,0603 R?
+U 1 1 5CD70C90
+P 2600 2650
+F 0 "R?" H 2700 2700 50  0000 L CNN
+F 1 "R471,0603" H 2700 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2600 2650 50  0001 C CNN
+F 3 "~" H 2600 2650 50  0001 C CNN
+	1    2600 2650
+	1    0    0    -1  
+$EndComp
+Text Label 1450 2450 0    50   ~ 0
+GPIO16
+Wire Wire Line
+	1450 2450 2050 2450
+Wire Wire Line
+	2050 2450 2050 2550
+Wire Wire Line
+	2050 2350 2050 2450
+Connection ~ 2050 2450
+Wire Wire Line
+	2050 2000 2050 2150
+Wire Wire Line
+	2050 1600 2050 1800
+Wire Wire Line
+	2050 2750 2050 2850
+Wire Wire Line
+	2050 2850 2350 2850
+Wire Wire Line
+	2350 2850 2350 2950
+Wire Wire Line
+	2350 2850 2600 2850
+Wire Wire Line
+	2600 2850 2600 2750
+Connection ~ 2350 2850
+Text Label 3200 2450 2    50   ~ 0
+nRST
+Wire Wire Line
+	3200 2450 2600 2450
+Wire Wire Line
+	2600 2450 2600 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5CD72E50
+P 2350 3550
+F 0 "#PWR?" H 2350 3300 50  0001 C CNN
+F 1 "GND" H 2400 3350 50  0000 C CNN
+F 2 "" H 2350 3550 50  0001 C CNN
+F 3 "" H 2350 3550 50  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3350 2350 3550
+$Comp
+L taobao-button:SW_RESET,2_leg,SMD SW?
+U 1 1 5CD73ECF
+P 4350 3150
+F 0 "SW?" V 4300 3300 50  0000 L CNN
+F 1 "FLASH_BUTTON" V 4350 3300 50  0000 L CNN
+F 2 "footprint-lib:SW_SPST_CK_RS282G05A3" H 4350 3350 50  0001 C CNN
+F 3 "~" H 4350 3350 50  0001 C CNN
+	1    4350 3150
+	0    1    1    0   
+$EndComp
+Text Label 4000 2400 0    50   ~ 0
+GPIO0
+$Comp
+L taobao-r:R471,0603 R?
+U 1 1 5CD7498A
+P 4350 2700
+F 0 "R?" H 4450 2750 50  0000 L CNN
+F 1 "R471,0603" H 4450 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 2700 50  0001 C CNN
+F 3 "~" H 4350 2700 50  0001 C CNN
+	1    4350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2400 4350 2400
+Wire Wire Line
+	4350 2400 4350 2600
+Wire Wire Line
+	4350 2800 4350 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5CD75A97
+P 4350 3550
+F 0 "#PWR?" H 4350 3300 50  0001 C CNN
+F 1 "GND" H 4400 3350 50  0000 C CNN
+F 2 "" H 4350 3550 50  0001 C CNN
+F 3 "" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3550 4350 3350
+$EndSCHEMATC
