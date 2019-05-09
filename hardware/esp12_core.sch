@@ -197,4 +197,95 @@ Wire Wire Line
 	5600 1950 5600 2250
 Wire Wire Line
 	5600 2450 5600 2800
+Text Label 1650 4450 0    50   ~ 0
+nRST
+Text Label 1650 4550 0    50   ~ 0
+ADC
+Text Label 1650 4650 0    50   ~ 0
+EN
+Text Label 1650 4750 0    50   ~ 0
+GPIO16
+Text Label 1650 4850 0    50   ~ 0
+GPIO14
+Text Label 1650 4950 0    50   ~ 0
+GPIO12
+Text Label 1650 5050 0    50   ~ 0
+GPIO13
+Text Label 1650 5450 0    50   ~ 0
+SPI_MOSI
+Text Label 1650 5550 0    50   ~ 0
+SPI_MISO
+Text Label 1650 5650 0    50   ~ 0
+GPIO9
+Wire Wire Line
+	1650 4450 2250 4450
+Wire Wire Line
+	1650 4550 2250 4550
+Wire Wire Line
+	1650 4650 2250 4650
+Wire Wire Line
+	1650 4750 2250 4750
+Wire Wire Line
+	1650 4850 2250 4850
+Wire Wire Line
+	1650 4950 2250 4950
+Wire Wire Line
+	1650 5050 2250 5050
+Wire Wire Line
+	1650 5450 2250 5450
+Wire Wire Line
+	1650 5550 2250 5550
+Wire Wire Line
+	1650 5650 2250 5650
+$Comp
+L taobao-components:ESP12 U?
+U 1 1 5CD4D9E6
+P 3600 5200
+F 0 "U?" H 3600 6500 50  0000 C CNN
+F 1 "ESP12" H 3600 6400 50  0000 C CNN
+F 2 "footprint-lib:ESP-12" H 3650 4500 50  0001 C CNN
+F 3 "" H 3650 4500 50  0001 C CNN
+	1    3600 5200
+	1    0    0    -1  
+$EndComp
+Text Label 5550 4450 2    50   ~ 0
+TXD0
+Text Label 5550 4550 2    50   ~ 0
+RXD0
+Text Label 5550 4650 2    50   ~ 0
+GPIO5
+Text Label 5550 4750 2    50   ~ 0
+GPIO4
+Text Label 5550 4850 2    50   ~ 0
+GPIO0
+Text Label 5550 4950 2    50   ~ 0
+GPIO2
+Text Label 5550 5050 2    50   ~ 0
+GPIO15
+Text Label 5550 5450 2    50   ~ 0
+SPI_CLK
+Text Label 5550 5550 2    50   ~ 0
+SPI_INT
+Text Label 5550 5650 2    50   ~ 0
+GPIO10
+Wire Wire Line
+	5550 4450 4950 4450
+Wire Wire Line
+	5550 4550 4950 4550
+Wire Wire Line
+	5550 4650 4950 4650
+Wire Wire Line
+	5550 4750 4950 4750
+Wire Wire Line
+	5550 4850 4950 4850
+Wire Wire Line
+	5550 4950 4950 4950
+Wire Wire Line
+	5550 5050 4950 5050
+Wire Wire Line
+	5550 5450 4950 5450
+Wire Wire Line
+	5550 5550 4950 5550
+Wire Wire Line
+	5550 5650 4950 5650
 $EndSCHEMATC
